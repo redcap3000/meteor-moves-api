@@ -1,0 +1,8 @@
+{
+      "name": "moves-api",
+      "description": "Meteorite (Meteor JS) package for interacting with the Moves API",
+      "homepage": "https://github.com/redcap3000/meteor-moves-api",
+      "author": "Ronaldo Barbachano <redcap3000@gmail.com>",
+      "version": "0.0.1",
+      "git": "https://github.com/redcap3000/meteor-moves-api.git"
+}

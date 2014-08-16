@@ -1,5 +1,21 @@
 #Meteor Moves API Package
 This is definately a work in progress, but am rewriting it to not be as cruddy as when it was originally written for [Trail](https://trail.meteor.com) First order of buisness is using the meteor accounts systems to store oauth keys. 
+##Settings
+This package depends on Meteor.settings so you'll need to launch your application so that it runs with a json file that has an entry that looks something like this:
+###settings.json
+```javascript
+  {
+  "moves" : {
+             "client_id" : "client_id",
+ 	           "client_secret" : "client_secret",
+	            "redirect_uri": "http://youroauth_callback_endpoint/"
+            }
+   }
+```
+Then running 
+```
+meteor --settings settings.json
+```
 
 ##Collections Used
 ###Your model.js
